@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+    <head> 
+      <!--Honor Code: I acknowledge that this code represents my own work: ERK Date: 01/24/2018--> 
+      <meta charset="utf-8" /> 
+      <meta name="description" content="My registration form" /> 
+      <meta name="keywords" content="Registration Form" /> 
+      <meta name="author" content="Evan" /> 
+
+      <title>Knight - Registration Form</title>
+        <link rel = "stylesheet" href = "basic.css" >
+        <script src="js/scripts.js"></script>
+    </head> 
+    <body>
+        
+        <div id="side">
+            <div id="side1">
+                <h3><u>Navigation</u></h3>
+                <nav>
+                    <a href="../Week03/Week3_Assignment.html">Back</a><br><br>
+                    <a href="../../index.html">Home</a><br>
+                    <a href="../Week02/answers.html">Week 2</a><br>
+                    <a href="Week3_Assignment.html">Week 3</a><br><br>
+                    <a href="../../Participation/index.html">Participation</a>
+                </nav>
+            </div>
+         </div>
+        <div id="main">
+            <article>
+                <h1>Fully Functonal Form...</h1>
+                <article>
+                    Ok, now that you've been parusing my site, please take a moment to register on my site. No you're not signing up for anything but the submit button does work and will return a page with your responses. Thanks!
+                    <br><br><br>
+                    p.s. My humor is a bit on the dark side... 
+                </article>
+            </article>
+        </div>
+        <div id="form">
+            <center><h1>Evan's Epic Field of Dreams</h1></center>
+            <center><h3>For access to the Field of Dreams please fill out the following form:</h3></center>
+        <form action = "https://chitester1dev.weber.edu/misc/weber/luke/forms.cfm" target="_blank" method="post">
+            <center> 
+              Enter User Name: <input type = "text" name = "username"/><br>
+              User Password: <input type = "password" name = "userpassword"/>
+            </center>
+            <h3>
+                If you have not already registered, please fill out the fields below.
+            </h3>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <p>
+                    <label>First Name </label><input type="text" name="first_name" placeholder="First name only" autofocus><br>
+                    <label>Last Name </label><input type="text" name="last_name" placeholder="Last name only"><br>
+                    <label>Date of Birth </label><input type="date" name="date_of_birth" placeholder="mm/dd/yyyy"><br>
+                    <label>Email </label><input type="email" name="email" placeholder="example@domain.com"><br>
+                    <label>URL </label><input type="url" name="url" placeholder="http://mysite.com"><br>
+                    <label>Telephone </label><input type="tel" name="telephone" placeholder="ex: 888-123-4567"><br>
+                    <label>Shoe Size </label><input type="number" name="shoe_size" min="5" max="18" value="9"  step=".5"><br>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Billing Address</legend>
+                <label>House number and Street</label><br>
+                <textarea rows="5" cols="30"><input type="text" required="true"></textarea>
+                <p>
+                    State
+                    <select name="State">
+                        <optgroup label="United States">
+                          <option value = "Utah">Utah</option>
+                          <option value = "Alabama">Alabam</option>
+                          <option value = "Arkansas">Arkansas</option>
+                          <option value = "Arizona">Arizona</option>
+                          <option value = "California">California</option>
+                          <option value = "Colorado">Colorado</option>
+                          <option value = "Connecticut">Connecticut</option>
+                          <option value = "Delaware">Delaware</option>
+                          <option value = "Florida">Florida</option>
+                          <option value = "Georgia">Georgia</option>
+                          <option value = "Hawaii">Hawaii</option>
+                          <option value = "Idaho">Idaho</option>
+                          <option value = "Illinois">Illinois</option>
+                          <option value = "Indiana">Indiana</option>
+                          <option value = "Iowa">Iowa</option>
+                          <option value = "Kansas">Kansas</option>
+                          <option value = "Kentucky">Kentucky</option>
+                          <option value = "Louisiana">Louisiana</option>
+                          <option value = "Maine">Maine</option>
+                          <option value = "Maryland">Maryland</option>
+                          <option value = "Massachusets">Massachusets</option>
+                          <option value = "Michigan">Michigan</option>
+                          <option value = "Minnesota">Minnesota</option>
+                          <option value = "Mississippi">Mississippi</option>
+                          <option value = "Missouri">Missouri</option>
+                          <option value = "Montana">Montana</option>
+                          <option value = "Nebraska">Nebraska</option>
+                          <option value = "Nevada">Nevada</option>
+                          <option value = "New Hampshire">New Hampshire</option>
+                          <option value = "New Jersey">New Jersey</option>
+                          <option value = "New Mexico">New Mexico</option>
+                          <option value = "New York">New York</option>
+                          <option value = "North Carolina">North Carolina</option>
+                          <option value = "North Dakota">North Dakota</option>
+                          <option value = "Ohio">Ohio</option>
+                          <option value = "Oklahoma">Oklahoma</option>
+                          <option value = "Oregon">Oregon</option>
+                          <option value = "Pennsylvania">Pennsylvania</option>
+                          <option value = "Rhode Island">Rhode Island</option>
+                          <option value = "South Carolina">South Carolina</option>
+                          <option value = "South Dakota">South Dakota</option>
+                          <option value = "Tennessee">Tennessee</option>
+                          <option value = "Texas">Texas</option>
+                          <option value = "Utah">Utah</option>
+                          <option value = "Vermont">Vermont</option>
+                          <option value = "Virginia">Virginia</option>
+                          <option value = "Washington">Washington</option>
+                          <option value = "West Virginia">West Virginia</option>
+                          <option value = "Wisconsin">Wisconsin</option>
+                          <option value = "Wyoming">Wyoming</option>
+                        </optgroup>
+                        <optgroup label = "Territories/Districts">
+                          <option value = "District of Colombia">District of Colombia</option>
+                          <option value = "Puetro Rico">Puerto Rico</option>
+                          <option value = "US Virgin Islands">US Virgin Islands</option>
+                        </optgroup>
+                    </select>
+                    </p>
+                    <p>
+                        <label>Country</label>
+                        <select name ="country">
+                            <optgroup label="Country">
+                                <option value="United States">United States</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Mexico">Mexico</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Card Details</legend>
+                    <fieldset>
+                        <legend>Card Type</legend>
+                        <input type="radio" name="card_type" value="visa"><label>Visa </label>
+                        <input type="radio" name="card_type" value="master_card"><label>Master Card</label>
+                        <input type="radio" name="card_type" value="amex"><lable>American Express</lable>
+                    </fieldset><br>
+                    <label>Name </label><input type="text" placeholder="Name as it appears on card"><br>
+                    <label>Card Number </label><input type="text" min="16" max="16"><br>
+                    <label>CCV Number </label><input type="password" min="3" max="4"><br>
+                    <label>Expiry Date </label><input type="date" placeholder="mm/dd/yyyy"><br>
+                </fieldset>
+                
+                  <center>
+                     <p>Please submit your answers. Thank you.</p>
+                       <input type="submit" value="Submit">
+                       <input type="reset" value="Reset"> <br><!-- submit and reset -->
+                  </center>
+            </form> 
+        </div>       
+    </body>
+</html>

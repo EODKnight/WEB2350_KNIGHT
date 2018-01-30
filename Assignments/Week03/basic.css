@@ -1,18 +1,22 @@
 body {
 	background: url(computerwithbinary.jpg);
 	background: url(binnumtunnel.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+	background-position: top;
+	background-repeat: repeat;
 	background-color: #5588F4;
 	}
 #side {
-	margin-left: 20px;
+	margin-left: 30px;
 	margin-right: 50px;
 	margin-top: 0px;
+    margin-bottom: 10px;
 	float: left;
 	}
 #side a{
 	color: #FFFFFF;
+}
+#topgroup {
+    margin-bottom: 20px;
 }
 
 #side1 {
@@ -20,7 +24,7 @@ body {
 	opacity: .8;
 	width: 250px;
 	padding: 15px;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 	color: #FFFFFF;
 	font-size: 150%;
 	font-family: arial;
@@ -29,7 +33,7 @@ body {
 	border-color: #00CCFF;
 	border-width: 6px;
 	box-shadow: 10px 10px 5px #888;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 #side2 {
 	background:#000033;
@@ -68,6 +72,27 @@ body {
 	margin-left: 340px;
 	margin-right: 40px;
 	margin-top: 30px;
+	margin-bottom: 0px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #00CCFF;
+	border-width: 6px;
+	box-shadow: 10px 10px 5px #888;
+    min-height: 275px;
+}
+#main2 {
+	background: #001155;
+	opacity: .9;
+	padding: 30px;
+	padding-top: 15px;
+    padding-bottom: 120px;
+	font-family: arial;
+	font-size: 105%;
+	line-height: 123%;
+	color: #AABBEE;
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	border-radius: 20px;
 	border-style: solid;
@@ -75,11 +100,63 @@ body {
 	border-width: 6px;
 	box-shadow: 10px 10px 5px #888;
 }
-#pic {
+#table {
+    background: #001155;
+	opacity: .9;
+	padding: 30px;
+	padding-top: 15px;
+    padding-bottom: 20px;
+	font-family: arial;
+	font-size: 105%;
+	line-height: 123%;
+	color: #AABBEE;
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #00CCFF;
+	border-width: 6px;
+	box-shadow: 10px 10px 5px #888;
+}
+#form {
+    background: #001155;
+	opacity: .9;
+	padding: 30px;
+	padding-top: 15px;
+    padding-bottom: 20px;
+	font-family: arial;
+	font-size: 105%;
+	line-height: 123%;
+	color: #AABBEE;
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: #00CCFF;
+	border-width: 6px;
+	box-shadow: 10px 10px 5px #888;
+}
+#picL {
    float: left;
    padding: 0px;
    margin: 0px;
    padding-right: 15px;
+}
+#picR {
+   float: right;
+   padding: 0px;
+   margin: 0px;
+   padding-left: 15px;
+}
+#pictext {
+    float: right;
+    padding: 20px;
+    margin: 0px;
+    padding-left: 25px;
 }
 
 #main h1, h2,h3 {
