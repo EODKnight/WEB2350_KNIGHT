@@ -67,18 +67,54 @@ ul li:before {
 input {
     background-color: lightyellow;
     color: #93AC80;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 2px;
 }
 
 table {
     border-style: groove;
     border-color: midnightblue;
     background-color: #E8F0F8;
+    width: 90%; 
+    
+    font-size: large;
 }
 
-table>th {
+th, td {
     background-image: url(../../Assignments/images/red-hot-seamless-background-4.jpg);
-    opacity: .85;
+    opacity: .90;
     background-size: cover;
+    border-style: groove;
+    color: black;
+    font-weight: 900;
+    text-shadow: 2px 1px 2px #DEE;
+    
+}
+
+label, input {
+    padding-left: 2px;
+    margin-left: 10px;
+    line-height: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+textarea {
+    margin-left: 10px;
+    padding: 2px;
+    background-color: lightyellow;
+    color: #93ACFF;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 2px;
+    
+}
+
+fieldset {
+    margin-bottom: 25px;
 }
 
 .contentBox { /* Creates a solid 10 pixel thick boader that is darker on top and lighter on the bottom to match the cascading back ground */
@@ -96,7 +132,18 @@ table>th {
 }
 
 .formButtons { /* formats buttons */
-   
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: darkred;
+    background-color: #888;
+    color: #4EE;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a:hover {
